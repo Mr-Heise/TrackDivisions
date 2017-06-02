@@ -26,9 +26,7 @@ public class TrackDivisions
 		int age = 11;
 		int division = 0;
 		int cutOffAge;
-		
-		
-		
+				
 		Scanner input = new Scanner(System.in);
 				
 		System.out.println("\n\n\t***THE TRACK DIVISIONS PROGRAM ***");
@@ -51,9 +49,7 @@ public class TrackDivisions
 		} while (cutOffAge < 11 || cutOffAge > 18);
 		
 		System.out.println("\n\tIn the 2016/2017 school year, the student athlete turned " + cutOffAge + " years old.");
-		
-		
-		
+				
 		if (birthMonth <= 8) {
 			do {
 
@@ -84,134 +80,11 @@ public class TrackDivisions
 			case 16: System.out.println("\n\tSenior"); break;
 		
 		}	
-		
 
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		/*	
-		switch (age) {
-			case 11:
-			
-				if (birthMonth <= 8) {			
-			
-					division = 1;	
-				
-				} else {
-			
-					division = 0;
-					
-				} break;
-					
-			case 12:
-			
-				if (birthMonth <= 8) {			
-			
-					division = 2;	
-				
-				} else {
-			
-					division = 1;
-					
-				} break;
-					
-			case 13:
-			
-				if (birthMonth <= 8) {			
-			
-					division = 3;	
-				
-				} else {
-			
-					division = 2;
-					
-				} break;
-					
-			case 14:
-			
-				if (birthMonth <= 8) {			
-			
-					division = 4;	
-		
-				} else {
-			
-					division = 3;
-				
-				} break;
-					
-			case 15:
-			
-				if (birthMonth <= 8) {			
-			
-					division = 5;	
-		
-				} else {
-			
-					division = 4;
-					
-				} break;
-					
-			case 16: 
-				
-				division = 5;
-				
-				break;
-				
-			} 
-			
-					
-			
-			switch (division) {
-			case 0: System.out.println("\n\tWee Pee"); break;
-			case 1: System.out.println("\n\tPee Wee"); break;
-			case 2: System.out.println("\n\tBantam"); break;
-			case 3: System.out.println("\n\tMidget"); break;
-			case 4: System.out.println("\n\tJunior"); break;
-			case 5: System.out.println("\n\tSenior"); break;
-			}
-		
-		*/
-			
-		 
-			
-			
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
 		System.out.println("\n");
-		
-		
-		
-		
-		
+	
 	}
 	
-	
-	
-	
-
-
-
-
-
-
-
-
 }
 
 
