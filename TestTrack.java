@@ -84,7 +84,7 @@ public class TestTrack{
 		
 			if (birthMonth <= SHSAA_MONTH){
 			
-				System.out.println("\n\tJunior");
+				System.out.println("\n\tMidget");
 			
 			} else {
 			
