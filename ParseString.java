@@ -23,17 +23,14 @@ public class ParseString {
 		String lastName;
 		String firstName;
 		
-		
 		int birthYear;
 		int birthMonth;
 		
 		int comma;
+			
 		
-		
-		
-		
-		System.out.println("\n\t*** THE PARSE STRING SIMULATION PROGRAM ***\n");
-		
+	
+		// Identify last name.
 		
 		comma = lineOfText.indexOf(",");
 		
@@ -45,8 +42,8 @@ public class ParseString {
 		
 		lineOfText = lineOfText.substring(comma + 1);
 		
-		//System.out.println("\n\tlineOfText = " + lineOfText);
 		
+		// Identify first name.
 		
 		
 		comma = lineOfText.indexOf(",");
@@ -59,8 +56,8 @@ public class ParseString {
 		
 		lineOfText = lineOfText.substring(comma + 1);
 		
-		//System.out.println("\n\tlineOfText = " + lineOfText);
 		
+		// Identify the birth year.
 		
 		
 		comma = lineOfText.indexOf(",");
@@ -73,7 +70,8 @@ public class ParseString {
 	
 		lineOfText = lineOfText.substring(comma + 1);
 	
-		//System.out.println("\n\tlineOfText = " + lineOfText);
+		
+		// Identify the birth month.
 		
 		
 		comma = lineOfText.indexOf(",");
@@ -84,8 +82,6 @@ public class ParseString {
 		
 		
 		
-		
-		System.out.println();
 		
 	
 	
